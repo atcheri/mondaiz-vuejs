@@ -11,38 +11,30 @@ describe("<HelloWorld />", () => {
       <div>
         
         <h1
-          data-v-e17ea971=""
+          class="text-3xl font-bold underline"
         >
-          Name
+          Hello world!
         </h1>
-        <div
-          class="card"
-          data-v-e17ea971=""
-        >
+        <h2>
+          Name
+        </h2>
+        <div>
           <button
-            data-v-e17ea971=""
             type="button"
           >
             count is 0
           </button>
-          <p
-            data-v-e17ea971=""
-          >
+          <p>
              Edit 
-            <code
-              data-v-e17ea971=""
-            >
+            <code>
               components/HelloWorld.vue
             </code>
              to test HMR 
           </p>
         </div>
-        <p
-          data-v-e17ea971=""
-        >
+        <p>
            Check out 
           <a
-            data-v-e17ea971=""
             href="https://vuejs.org/guide/quick-start.html#local"
             target="_blank"
           >
@@ -50,24 +42,15 @@ describe("<HelloWorld />", () => {
           </a>
           , the official Vue + Vite starter 
         </p>
-        <p
-          data-v-e17ea971=""
-        >
+        <p>
            Install 
           <a
-            data-v-e17ea971=""
             href="https://github.com/vuejs/language-tools"
             target="_blank"
           >
             Volar
           </a>
            in your IDE for a better DX 
-        </p>
-        <p
-          class="read-the-docs"
-          data-v-e17ea971=""
-        >
-          Click on the Vite and Vue logos to learn more
         </p>
         
       </div>

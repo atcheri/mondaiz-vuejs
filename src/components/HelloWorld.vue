@@ -7,7 +7,8 @@ const count = ref(0);
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
+  <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  <h2>{{ msg }}</h2>
 
   <div>
     <button type="button" @click="count++">count is {{ count }}</button>
